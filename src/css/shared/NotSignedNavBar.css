@@ -1,0 +1,21 @@
+.NotSignedNavBar {
+  background: #fafafa;
+  min-height: 55px;
+  line-height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .navbar-Logo {
+  margin-left: 0.5rem;
+} */
+
+@media only screen and (max-width: 600px) {
+  .NotSignedNavBar {
+    display: flex;
+    justify-content: center;
+  }
+}
